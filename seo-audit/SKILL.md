@@ -21,7 +21,7 @@ Evidence-based (file:line refs) | Impact-focused (Critical/High/Med/Low/Info) | 
 
 ## Step 2: Discover Scans
 
-Glob `seo-*.md` in `/home/teo-mcarthur/.claude/skills/seo-audit/references` → build scan list
+Glob `seo-*.md` in the skill's `references/` directory → build scan list
 
 ## Step 3: Determine Scope
 

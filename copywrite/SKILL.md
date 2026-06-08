@@ -23,7 +23,7 @@ Evidence-based (reads existing copy/docs) | Tone-aware (follows brand voice) | O
 
 ## Step 2: Discover Copy Types
 
-Glob `copy-*.md` in `/home/teo-mcarthur/.claude/skills/copywrite/references` → build copy type list
+Glob `copy-*.md` in the skill's `references/` directory → build copy type list
 
 Available types:
 - **copy-email** - Transactional, notification, drip, marketing emails

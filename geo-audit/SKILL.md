@@ -18,7 +18,7 @@ Evidence-based (`file:line`) | Impact ratings (Critical→High→Med→Low→Inf
 
 ## Step 2: Discover Scans
 
-Glob `geo-*.md` in `/home/teo-mcarthur/.claude/skills/geo-audit/references`
+Glob `geo-*.md` in the skill's `references/` directory
 
 ## Step 3: Scope
 

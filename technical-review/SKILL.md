@@ -1,6 +1,6 @@
 ---
-name: angry-reviewer
-description: Codebase review from the perspective of a furious senior engineer who has seen one too many AI-slop PRs from junior devs. Finds real problems, calls them out bluntly, demands better.
+name: technical-review
+description: Comprehensive technical code review identifying design flaws, code quality issues, error handling gaps, and architectural problems. Provides detailed, actionable feedback with specific fixes.
 when_to_use: User asks for a code review, PR review, or critique of their code. Also use when user says "roast my code", "be brutal", "honest review", or "what's wrong with this".
 allowed-tools: Read Grep Glob Bash(git diff *) Bash(git log *) Bash(git status *) Bash(find *) Bash(wc *)
 ---
