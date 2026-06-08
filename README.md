@@ -27,7 +27,7 @@ A collection of professional skills for [Claude Code](https://claude.com/claude-
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-skills.git ~/claude-skills
+git clone https://github.com/TJM-NZ/claude-skills.git ~/claude-skills
 ```
 
 2. Create symlinks in your Claude skills directory:
@@ -74,4 +74,4 @@ MIT License - See LICENSE file for details
 
 ## About
 
-Created by [Teo McArthur](https://github.com/YOUR_USERNAME) for use with Claude Code.
+Created by [Teo McArthur](https://github.com/TJM-NZ) for use with Claude Code.
