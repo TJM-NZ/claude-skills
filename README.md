@@ -10,6 +10,7 @@ A collection of professional skills for [Claude Code](https://claude.com/claude-
 - **seo-audit** - Technical SEO audit analyzing performance, structured data, mobile responsiveness, and site architecture.
 - **geo-audit** - Generative Engine Optimization (GEO) audit for AI discoverability (ChatGPT, Perplexity, Gemini).
 - **perf-check** - Performance analysis finding bottlenecks, N+1 queries, missing indexes, and inefficient algorithms.
+- **cpu-optimisation** - CPU usage audit across compute, async, caching, rendering, and import patterns. Reports UX impact per finding so developers can make informed trade-off decisions.
 - **refactor** - Scan for refactoring opportunities and technical debt.
 - **data-validation** - Data validation framework for schema validation, data quality, constraints, and business rules (finance/AI focus).
 
@@ -45,6 +46,7 @@ ln -s ~/claude-skills/perf-check perf-check
 ln -s ~/claude-skills/refactor refactor
 ln -s ~/claude-skills/security-audit security-audit
 ln -s ~/claude-skills/seo-audit seo-audit
+ln -s ~/claude-skills/cpu-optimisation cpu-optimisation
 ln -s ~/claude-skills/logic-check.skill.md logic-check.skill.md
 ```
 
@@ -58,7 +60,8 @@ Skills are invoked in Claude Code using the `/skill-name` syntax:
 /seo-audit         # Check SEO optimization
 /data-validation   # Validate data quality and integrity
 /copywrite         # Generate marketing copy
-/perf-check        # Analyze performance
+/perf-check           # Analyze performance
+/cpu-optimisation     # Audit CPU usage across compute, async, caching, rendering, imports
 ```
 
 ## Skill Structure
