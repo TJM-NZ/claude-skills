@@ -28,16 +28,6 @@ Systematic validation framework | Type-safe | Fail-fast | Actionable errors | Co
 
 Glob `validation-*.md` in the skill's `references/` directory → build validation checklist
 
-Available validation types:
-- **validation-schema** - Type checking, required fields, structure validation
-- **validation-quality** - Completeness, accuracy, consistency, timeliness
-- **validation-constraints** - Range checks, length limits, enum validation
-- **validation-format** - Dates, emails, URLs, phone numbers, regex patterns
-- **validation-business** - Domain-specific rules, cross-field validation
-- **validation-statistical** - Outliers, distributions, anomalies (AI/ML focus)
-- **validation-sanitization** - Input cleaning, XSS prevention, SQL injection
-- **validation-integrity** - Referential integrity, foreign keys, uniqueness
-
 ## Step 3: Determine Scope
 
 If user specified validation type → load that reference. Else offer:

@@ -24,7 +24,6 @@ Grep: `from '../components'|from '../lib'|from '../utils'|from '@/components'`
 
 - Pattern: barrel `index.ts` re-exports everything — importing one thing loads the entire barrel
 - Fix: import directly from the source file: `from '../components/Button'`
-- UX impact: none (same runtime behaviour, smaller parse cost)
 
 ## Expensive Module-Level Initialisation
 
@@ -32,7 +31,6 @@ Grep: top of files for `new|connect\(|createClient\(|mongoose\.connect|knex\(` o
 
 - Pattern: DB connections, SDK clients, or heavy object construction at module scope — runs on every cold start
 - Fix: lazy-initialise behind a function with a module-scope cache variable (`let client; function getClient() { ... }`)
-- UX impact: none (connection established before first use, same as before)
 
 ## Unused Imports
 
@@ -40,7 +38,6 @@ Grep: cross-reference `import` statements against actual usage in the file
 
 - Pattern: imported symbols never referenced in the file body
 - Fix: remove them
-- UX impact: none
 
 ## Missing Code Splitting on Heavy Routes
 
@@ -57,7 +54,6 @@ Grep: `from 'framer-motion'|from 'recharts'|from 'react-map-gl'|from 'react-play
 - Pattern: browser-only libraries imported in Server Components — breaks SSR and inflates the server bundle with DOM-dependent code
 - Verify: check if the importing file has `'use client'` at the top; if not, it's a Server Component
 - Fix: add `'use client'` to the component, or extract the library usage into a child client component and import that instead
-- UX impact: none (corrects broken behaviour; no visible change when already working around the error)
 
 ## next/dynamic Opportunities for Heavy Client Components
 

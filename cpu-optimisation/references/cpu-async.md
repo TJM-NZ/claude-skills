@@ -8,7 +8,6 @@ Grep: `readFileSync|writeFileSync|execSync|spawnSync|appendFileSync`
 
 - Pattern: sync I/O in request handlers or server startup paths
 - Fix: async equivalents (`readFile`, `writeFile`, `exec`) or read once at startup into memory
-- UX impact: none (same result, non-blocking)
 
 ## Sequential Awaits (Parallelisable)
 
@@ -50,4 +49,3 @@ Grep: `setInterval\(.*fetch|setInterval\(.*axios|setInterval\(.*request`
 
 - Pattern: repeated HTTP calls on interval to check for updates
 - Fix: WebSocket, SSE, or webhook depending on stack
-- UX impact: none — same data, lower CPU overhead

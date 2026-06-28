@@ -8,7 +8,6 @@ Grep: `onClick=\{.*=>|onChange=\{.*=>|onSubmit=\{.*=>`
 
 - Pattern: inline arrow functions in JSX props — new function reference every render triggers child re-render
 - Fix: extract to named handlers or `useCallback`
-- UX impact: none (same behaviour)
 
 ## Missing React.memo on Stable Components
 
@@ -17,7 +16,6 @@ Grep: `export default function|export const.*=.*\(` in component files
 - Pattern: components that receive stable props but re-render on every parent render
 - Verify: check if props are actually stable (primitives or memoized objects)
 - Fix: wrap with `React.memo()`
-- UX impact: none
 
 ## Heavy Computation in Render Body
 
@@ -25,7 +23,6 @@ Grep: `\.sort\(|\.filter\(|\.reduce\(|\.map\(` inside React component functions 
 
 - Pattern: expensive array operations recalculated every render
 - Fix: `useMemo` with correct dependencies
-- UX impact: none
 
 ## Wrong Rendering Strategy (Next.js / SSR frameworks)
 

@@ -8,7 +8,6 @@ Grep: `useMemo\|useCallback` — check for their *absence* in components with he
 
 - Pattern: expensive derivations (`filter` + `sort` + `map` on large arrays) recalculated every render
 - Fix: `useMemo(() => expensiveOp(data), [data])` — recomputes only when deps change
-- UX impact: none (same output, fewer CPU cycles)
 
 ## Repeated DB / API Calls for Same Data
 
@@ -16,7 +15,6 @@ Grep: look for identical query calls across multiple handlers or in loops
 
 - Pattern: same data fetched multiple times per request cycle without caching
 - Fix: in-memory cache (`Map` with TTL), Redis, or request-scoped dataloader pattern
-- UX impact: none — data is identical, response is faster
 
 ## Missing HTTP Response Caching
 
@@ -32,7 +30,6 @@ Grep: `function.*\(|const.*=.*\(.*\).*=>` — look for pure functions called rep
 
 - Pattern: pure functions called in loops or frequently with identical arguments
 - Fix: `memoize()` (lodash or hand-rolled with `Map`) for functions with expensive bodies
-- UX impact: none
 
 ## Re-Computing Derived State
 
@@ -40,7 +37,6 @@ Grep (React): `const.*=.*props\.|const.*=.*state\.` inside render/component body
 
 - Pattern: derived values computed from props/state on every render without useMemo
 - Fix: `useMemo` for derived values, move static derivations outside the component
-- UX impact: none
 
 ## Server-Side: No Caching on Stable Data
 

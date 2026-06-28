@@ -25,14 +25,6 @@ Evidence-based (reads existing copy/docs) | Tone-aware (follows brand voice) | O
 
 Glob `copy-*.md` in the skill's `references/` directory → build copy type list
 
-Available types:
-- **copy-email** - Transactional, notification, drip, marketing emails
-- **copy-hero** - Landing page headlines, subheadlines, CTAs
-- **copy-sales** - Sales pages, feature descriptions, value props
-- **copy-seo** - SEO-optimized content, meta descriptions, page titles
-- **copy-tone** - Brand voice guides, tone documentation
-- **copy-ux** - Microcopy, button text, error messages, empty states
-
 ## Step 3: Determine Scope
 
 If user specified copy type → load that reference. Else offer:
