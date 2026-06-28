@@ -1,13 +1,5 @@
 # GEO: Embeddability & API Access
 
-AI models/tools need structured data exports and embeddable formats. Programmatic accessibility → AI integration.
-
-## Objectives
-
-Clean JSON API endpoints | Embeddable widgets | RSS/Atom feeds | oEmbed support | Sitemap (all content) | Robots.txt (clear directives) | CORS for legitimate access | Rate limiting (not blocking)
-
-## Search
-
 ### JSON API Endpoints
 **Grep**: `app/api|pages/api|route.ts`
 **Check**: `/api/recipes` (list), `/api/recipes/[id]` (single), `/api/recipes/search` | Query params (filters, pagination)
@@ -314,10 +306,3 @@ other: { "oembed-url": `https://remixipe.com/oembed?url=${encodeURIComponent(rec
 **Sitemap**: Submit to Search Console
 **Embed**: Test iframe on external site
 
-## Best Practices
-
-Public JSON API | Allow AI crawlers | Dynamic sitemap | RSS feed | Embed support | CORS for GET | Reasonable rate limits | oEmbed discovery
-
-## Refs
-
-oEmbed: https://oembed.com/ | robots.txt: Google docs | Sitemap: https://www.sitemaps.org/ | RSS 2.0: https://www.rssboard.org/ | AI crawler User-Agents

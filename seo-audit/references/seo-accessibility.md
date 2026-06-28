@@ -2,10 +2,6 @@
 
 Semantic HTML, ARIA, keyboard nav, color contrast — affects both UX and rankings.
 
-## Why A11y → SEO
-
-Semantic HTML helps crawlers understand structure | Alt text provides image context | Heading hierarchy benefits screen readers + bots | Better engagement metrics | Google quality signal
-
 ## Checks
 
 | Area | Search | Issues → Impact |

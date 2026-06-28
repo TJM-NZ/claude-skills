@@ -54,6 +54,3 @@ Headings, alt text, internal linking, content depth, keyword usage, readability.
 {recipe.updatedAt !== recipe.publishedAt && <time>Updated {formatDate(recipe.updatedAt)}</time>}
 ```
 
-## Keyword Optimization
-
-Primary keyword in: H1, URL slug, meta title, first 100 words | Secondary keywords in H2s | Natural usage, not stuffing

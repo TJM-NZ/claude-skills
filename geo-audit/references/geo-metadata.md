@@ -1,13 +1,5 @@
 # GEO: Rich Metadata
 
-AI models use metadata for context understanding and query matching. Rich, structured metadata → improved discoverability.
-
-## Objectives
-
-Comprehensive tags (dietary, cuisine, meal, occasion, skill, equipment) | Detailed timing (prep/cook/rest/total) | Serving/yield + scaling | Ingredient alternatives | Equipment lists | Seasonal/occasion | Storage/reheating | Batch size/scaling
-
-## Search
-
 ### Tag Completeness
 **Grep**: `tags|categories|keywords`
 **Check categories**:
@@ -203,10 +195,3 @@ interface StorageInfo {
 Tag coverage: 3+ tags from different categories per recipe
 AI test: "Quick vegetarian dinner", "Make-ahead gluten-free desserts", "Instant Pot meal prep"
 
-## Best Practices
-
-Multi-category tags | Timing breakdown | Scaling guidance | Equipment upfront | Structured alternatives | Storage info | Allergen flags | Occasion context
-
-## Refs
-
-Schema.org Recipe: https://schema.org/Recipe | USDA allergens

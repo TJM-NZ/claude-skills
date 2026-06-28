@@ -59,8 +59,6 @@ Generate **2 options** with:
 
 ## Write like a human, not an AI
 
-The copy must read like a real person wrote it. Avoid these AI tells:
-
 - **No emdashes** - use commas, full stops, or rewrite the sentence instead
 - **No "unlock", "unleash", "elevate", "empower", "leverage", "streamline"** - these are dead giveaways
 - **No "delve", "tapestry", "landscape", "paradigm", "holistic", "synergy"** - corporate AI slop
@@ -69,7 +67,6 @@ The copy must read like a real person wrote it. Avoid these AI tells:
 - **No alliteration for its own sake** - it reads as try-hard
 - **Contractions are fine** - "you'll" not "you will", "it's" not "it is"
 - **Prefer plain, concrete words** - "change" not "transform", "use" not "utilize", "help" not "facilitate"
-- Read the copy out loud in your head. If it sounds like a LinkedIn post or a press release, rewrite it.
 
 ## After presenting options
 

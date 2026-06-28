@@ -1,13 +1,5 @@
 # GEO: Structured Data
 
-AI models rely on Schema.org for content understanding. Rich, complete markup → higher AI citability.
-
-## Objectives
-
-Complete Recipe schema | Rich author data + credentials | Multiple image ratios | Nutrition data | Ratings/reviews | Categories/cuisine | Ingredient alternatives
-
-## Search
-
 ### JSON-LD Location
 **Grep**: `@type.*Recipe|application/ld\+json` (files_with_matches)
 **Check**: `<script type="application/ld+json">` | Server-rendered (not client-only) | Valid JSON
@@ -138,6 +130,3 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 
 Google Rich Results Test | Schema.org Validator | AI test: "summarize recipe at [URL]" (ChatGPT/Perplexity)
 
-## Refs
-
-Schema.org Recipe: https://schema.org/Recipe | Person: https://schema.org/Person | Google Recipe Guidelines

@@ -52,15 +52,3 @@ export const metadata: Metadata = {
 <footer><nav aria-label="Footer">...</nav></footer>
 ```
 
-## Report Format
-
-```
-**[IMPACT] Issue Title**
-- Category: Technical SEO
-- Location: `path/file.tsx:123`
-- Issue: [specific problem]
-- Impact: [ranking/crawl effect]
-- Evidence: ```tsx [bad code]```
-- Fix: ```tsx [good code]```
-- Ref: [Google/web.dev URL]
-```

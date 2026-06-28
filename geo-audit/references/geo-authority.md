@@ -1,13 +1,5 @@
 # GEO: Authority & Trust Signals
 
-AI models weight authoritative content higher. Trust signals → citation likelihood → AI ranking.
-
-## Objectives
-
-Verified author credentials | User reviews/ratings | Recipe testing indicators | Community engagement (comments, saves, forks) | External backlinks/citations | Social proof (views, forks) | Editorial standards | Expertise demonstration
-
-## Search
-
 ### Author Credentials
 **Grep**: `author.*bio|credentials|jobTitle|expertise`
 **Check**: Professional credentials (Chef, Recipe Developer) | Specialties/expertise | Years experience | Training/education | Publications/awards/media
@@ -255,10 +247,3 @@ AI test: ChatGPT recommend recipes → check if yours appear w/ author/ratings
 Trust audit per recipe: Author w/ credentials? | Rating (≥5 reviews)? | Engagement visible? | Testing? | Professional photo? | Last updated? | Citations?
 **Target**: 5+ trust signals/recipe
 
-## Best Practices
-
-Require author credentials | Encourage reviews | Surface engagement | Test recipes | Update regularly | Professional quality | Cite sources | Respond to feedback
-
-## Refs
-
-E-A-T (Expertise, Authoritativeness, Trustworthiness) - Google | Schema.org Review/AggregateRating | Trust signals in AI search (research)

@@ -68,14 +68,11 @@ Generate UX microcopy for in-product text. Do NOT make any code changes - presen
 
 ## Write like a human, not an AI
 
-The copy must read like a real person wrote it. Avoid these AI tells:
-
 - **No emdashes** - use commas, full stops, or rewrite the sentence instead
 - **No "unlock", "unleash", "elevate", "empower", "leverage", "streamline"**
 - **No exclamation marks** - they feel fake in product UI
 - **Contractions are fine and encouraged** - "can't" not "cannot", "won't" not "will not"
 - **Prefer plain, concrete words** - "save" not "persist", "show" not "display", "name" not "designation"
-- If it sounds like a robot wrote it, rewrite it.
 
 ## After presenting options
 

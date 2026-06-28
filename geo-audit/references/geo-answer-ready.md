@@ -1,13 +1,5 @@
 # GEO: Answer-Ready Format
 
-AI models prefer content structured to directly answer questions. Information architecture → AI citability.
-
-## Objectives
-
-Key info upfront (inverted pyramid) | Numbered steps (not paragraphs) | Clear sections | Scannable ingredients | Quick facts/summary | Time/difficulty/servings prominent | FAQ | Printable
-
-## Search
-
 ### Information Hierarchy
 **Read**: Recipe page components → order
 
@@ -199,10 +191,3 @@ CREATE TABLE recipe_faqs (
 AI test: "Extract ingredients/steps from [URL]" → check accuracy
 Print preview: Recipe fits 1-2 pages, clean, readable
 
-## Best Practices
-
-Key info first | Numbered steps | Quick stats box | FAQ section | Jump links | Print-friendly | One action/step | Story below
-
-## Refs
-
-Google featured snippets | Recipe card best practices | WCAG navigation

@@ -71,7 +71,6 @@ For pages that use dynamic content (recipe pages, user profiles, collections), p
 - **No "discover the power of..."** or "take your X to the next level"
 - **Contractions are fine** - "you'll" not "you will"
 - **Prefer plain words** - "find" not "discover", "free" not "at no cost"
-- Meta descriptions show up in search results. If it reads like marketing fluff, people won't click.
 
 ## After presenting options
 

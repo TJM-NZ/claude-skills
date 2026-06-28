@@ -78,6 +78,3 @@ export default function robots(): MetadataRoute.Robots {
 export const metadata = { alternates: { canonical: 'https://site.com/recipes' } }
 ```
 
-## Navigation Structure
-
-Primary nav → Footer links → Breadcrumbs → Related content → No orphan pages → SSR'd (not JS-only)

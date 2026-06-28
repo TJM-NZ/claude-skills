@@ -1,13 +1,5 @@
 # GEO: Content Format
 
-AI models prefer clear, scannable, well-structured content. Formatting → parsing quality → citability.
-
-## Objectives
-
-Heading hierarchy (H1→H2→H3, no skips) | Concise paragraphs (2-4 sentences) | Lists (numbered/bulleted) | Key info upfront | Semantic HTML | Alt text | Readable prose
-
-## Search
-
 ### Heading Hierarchy
 **Grep**: `<h[1-6]|className.*text-[1-6]xl`
 **Check**: Single H1 | H2 for major sections (Ingredients, Instructions) | H3 for subsections | No skipped levels
@@ -116,10 +108,3 @@ AI parsing test: "summarize recipe at [URL]" (ChatGPT) → check accuracy
 axe DevTools: semantic HTML, headings, alt text
 WAVE: visual structure feedback
 
-## Best Practices
-
-One idea/paragraph | Lists > prose | Headings for structure | Key info first | Semantic HTML | Descriptive alt | Tables for data | Short sentences
-
-## Refs
-
-WCAG: https://www.w3.org/WAI/WCAG21/quickref/ | MDN Semantic HTML

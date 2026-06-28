@@ -1,13 +1,5 @@
 # GEO: Citations & Attribution
 
-AI models favor clear attribution, sources, citations. Proper credit → authority → trustworthiness → higher citation rate.
-
-## Objectives
-
-Author attribution (all recipes) | Recipe inspiration/source credits | Ingredient sources (optional) | Technique references | External citations for claims | Licensing/attribution for adapted recipes
-
-## Search
-
 ### Author Attribution
 **Grep**: `author|creator|by|posted.*by`
 **Check**: Name displayed | Link to profile | Bio/credentials visible | Photo | Consistency across recipes
@@ -152,10 +144,3 @@ function enrichTechniqueLinks(text: string): string {
 AI test: "Who created [recipe] on [site]?" → should return author accurately
 Link health: Check external links, verify non-404
 
-## Best Practices
-
-Always credit | Link to profiles | Semantic markup (`<cite>`, `<author>`) | Cite claims | Credit techniques | Acknowledge culture | Permission for adaptations
-
-## Refs
-
-Schema.org CreativeWork: https://schema.org/CreativeWork | citation: https://schema.org/citation | Creative Commons

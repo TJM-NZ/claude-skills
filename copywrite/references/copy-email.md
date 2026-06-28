@@ -88,8 +88,6 @@ For each email, provide **2 options** with:
 
 ## Write like a human, not an AI
 
-The copy must read like a real person wrote it. Avoid these AI tells:
-
 - **No emdashes** - use commas, full stops, or rewrite the sentence instead
 - **No "unlock", "unleash", "elevate", "empower", "leverage", "streamline"**
 - **No "we're thrilled", "we're excited to announce"** - the reader doesn't care about your emotions
@@ -97,7 +95,6 @@ The copy must read like a real person wrote it. Avoid these AI tells:
 - **No exclamation marks in subject lines** - they trigger spam filters and feel desperate
 - **Contractions are fine** - "you'll" not "you will", "here's" not "here is"
 - **Prefer plain, concrete words** - "new" not "brand-new", "changed" not "updated"
-- If it reads like a SaaS onboarding template from 2019, rewrite it.
 
 ## After presenting options
 

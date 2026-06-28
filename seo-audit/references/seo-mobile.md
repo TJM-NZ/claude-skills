@@ -63,6 +63,3 @@ Mobile-first indexing: viewport, responsive design, touch targets, mobile perfor
 // ✅ <div className="sticky bottom-0 p-4">  (banner, dismissible)
 ```
 
-## Mobile-First Indexing
-
-Google uses mobile version for ranking → Content parity mobile/desktop → Structured data on mobile → Navigation works w/o JS where possible

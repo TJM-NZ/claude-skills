@@ -1,13 +1,5 @@
 # GEO: Conversational Alignment
 
-AI users phrase queries naturally ("quick weeknight dinner"). Content matching conversational patterns → higher citation rate.
-
-## Objectives
-
-Match natural queries | Answer common questions explicitly | Conversational phrases | Context for AI recommendations | Question-based discovery (Who/What/When/Where/Why/How)
-
-## Search
-
 ### Recipe Titles
 **Grep**: `title.*recipe|recipes.*title`
 **Check**: Conversational patterns
@@ -123,10 +115,3 @@ Ask ChatGPT/Perplexity:
 
 Check if recipes appear w/ correct context.
 
-## Best Practices
-
-Titles answer what+why | Descriptions solve problems | Tags match queries ("quick dinner" not "dinner") | FAQ sections | Use cases | Problem-solving notes | Audience clarity
-
-## Refs
-
-Google conversational search | Perplexity content guidelines | ChatGPT plugin best practices

@@ -90,6 +90,3 @@ async redirects() {
 // Or in component: permanentRedirect(`/new/${slug}`)  (301) | redirect(...)  (307)
 ```
 
-## Critical Rules
-
-All public pages in sitemap (no drafts/noindex) | Sitemap auto-updates | Public pages indexable | Draft/admin noindex | SSR for SEO content | Links use `<a href>` | No orphans | No redirect chains
