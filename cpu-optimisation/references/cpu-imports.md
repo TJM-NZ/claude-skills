@@ -49,3 +49,29 @@ Read: router/page config — look for routes that load heavy components eagerly
 - Pattern: admin panels, chart libraries, rich text editors bundled into the main entry point
 - Fix: dynamic import / `React.lazy` with `Suspense`
 - UX impact: minimal — lazy component shows a suspense fallback on first visit; subsequent visits cached
+
+## Client-Only Libraries in Server Components (Next.js App Router)
+
+Grep: `from 'framer-motion'|from 'recharts'|from 'react-map-gl'|from 'react-player'|from 'swiper'|from 'leaflet'` in files without `'use client'`
+
+- Pattern: browser-only libraries imported in Server Components — breaks SSR and inflates the server bundle with DOM-dependent code
+- Verify: check if the importing file has `'use client'` at the top; if not, it's a Server Component
+- Fix: add `'use client'` to the component, or extract the library usage into a child client component and import that instead
+- UX impact: none (corrects broken behaviour; no visible change when already working around the error)
+
+## next/dynamic Opportunities for Heavy Client Components
+
+Grep: `import.*from '.*chart|.*editor|.*map|.*player|.*pdf|.*monaco'` in page and layout files
+
+- Pattern: large client-side components (chart libraries, rich text editors, map renderers) imported statically — included in the initial JS bundle even when below the fold or conditionally rendered
+- Fix: `const HeavyComponent = dynamic(() => import('../components/HeavyComponent'), { ssr: false })` — defers load until component is needed
+- UX impact: minimal — component renders after JS loads; add a `loading` skeleton to smooth it
+
+## @vercel/og / Image Generation in Hot API Paths
+
+Grep: `from '@vercel/og'|from 'sharp'|from 'canvas'|ImageResponse` in route handler files
+
+- Pattern: image generation libraries initialise a WASM runtime or spawn a worker on each cold start; placing them in frequently-called routes means this cost is paid repeatedly
+- Verify: check the route's call volume — OG image routes called on every page render are a red flag
+- Fix: move OG image generation to a dedicated `/api/og` route with aggressive caching (`Cache-Control: public, s-maxage=86400, stale-while-revalidate`); never call from a hot data API
+- UX impact: none — OG images are fetched by crawlers, not users in the critical path

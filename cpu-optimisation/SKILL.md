@@ -19,11 +19,11 @@ Glob for `cpu-*.md` in `${CLAUDE_SKILL_DIR}/references/`. Read the first heading
 
 Present options and wait for response:
 
-1. **Full audit** — all modules
+1. **Full audit** — all modules (from the list discovered in Step 2)
 2. **Quick scan** — compute + async + caching (highest universal impact)
-3. **Select modules** — show numbered list, user picks
+3. **Select modules** — present the numbered list from Step 2, user picks
 
-If scope already specified (e.g. "check async patterns"), map to relevant modules and skip.
+If scope already specified (e.g. "check async patterns"), map to relevant modules from the Step 2 list and skip.
 
 ## Step 4: Load selected references
 
