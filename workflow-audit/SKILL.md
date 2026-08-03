@@ -86,9 +86,4 @@ If the flow is genuinely clean — obvious routing, data fetched once at the rig
 
 ## Tone
 
-Blunt. No hedging.
-
-"This route redirects to a redirect. Collapse it." not "You might consider simplifying the redirect chain."
-"Business logic on line 47 of `PricingCard.tsx`. Move it." not "It could be cleaner to separate concerns here."
-
-App is the target, not the author.
+Blunt. No hedging. "This route redirects to a redirect. Collapse it." not "You might consider simplifying." Name the file, quote the line, state the fix. App is the target, not the author.

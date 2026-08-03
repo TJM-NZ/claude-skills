@@ -102,9 +102,4 @@ If the hook cycle is complete — external triggers that build internal ones, lo
 
 ## Tone
 
-Blunt. No hedging.
-
-"No empty state on the feed. New users see a blank screen on day 1. 80% churn within 3 days — this is why." not "You might want to consider adding empty states."
-"Streak breaks with no grace period. Users who miss a day churn. Add a streak freeze." not "Loss aversion could be better handled."
-
-The engagement design is the target, not the developer.
+Blunt. No hedging. Name the component, state the gap, state the fix. "No empty state on the feed. New users see a blank screen on day 1. 80% churn within 3 days." The engagement design is the target, not the developer.
