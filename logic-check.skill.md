@@ -157,32 +157,6 @@ For each check, report:
 - Low: 3
 ```
 
-## Anti-patterns to Flag
-
-### Auth
-- `auth()` in middleware.ts
-- Circular redirects between locales
-- Auth checks in root layout.tsx
-- Missing auth checks in protected routes
-
-### i18n
-- Hardcoded strings: `<h1>Welcome</h1>`
-- Wrong import: `import { useRouter } from 'next/navigation'`
-- Direct pathname: `href="/recipes"`
-- Missing translation keys in either locale file
-
-### Data Flow
-- Server actions without ActionResult return type
-- No error handling in async functions
-- Missing revalidation after mutations
-- Unhandled loading states
-
-### Conventions
-- Server actions in component files
-- Client components without "use client"
-- Relative imports instead of @/ alias
-- Wrong file locations
-
 ## Scope
 
 By default, check:
@@ -194,16 +168,3 @@ By default, check:
 
 User can specify narrower scope: specific file, directory, or feature area.
 
-## Examples
-
-**User**: "Check the auth flow"
-**Action**: Focus on middleware.ts, auth routes, protected pages, session handling
-
-**User**: "Make sure i18n is correct"
-**Action**: Compare translation files, scan for hardcoded strings, check locale URL handling
-
-**User**: "Verify the recipe feature"
-**Action**: Check src/app/[locale]/recipes, src/lib/recipes, src/components/recipe
-
-**User**: "Logic check before PR"
-**Action**: Full systematic check of all modified files (use git diff to find scope)
