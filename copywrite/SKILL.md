@@ -32,7 +32,7 @@ If user specified copy type → load that reference. Else offer:
 2. **Email Campaign** - Subject lines, body copy, sequences
 3. **Sales Page** - Long-form conversion copy
 4. **UX Microcopy** - Buttons, errors, tooltips, empty states
-5. **SEO Content** - Meta tags, page titles, descriptions
+5. **SEO Metadata** - Meta tags, page titles, OG descriptions (metadata only — for headings + body + meta in one pass, suggest `/seo-copy`)
 6. **Brand Tone** - Voice guide creation
 7. **Custom** - User picks specific combination
 
